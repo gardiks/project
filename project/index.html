@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameStudio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <a href="/" class="logo">
+        Game<span class="logo__inner">Studio</span>
+      </a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1 class="hero__title">Найкращі відеоігри<br> для вас</h1>
+      </section>
+
+      <section class="games">
+        <h2 class="section-title">Виберіть свою гру</h2>
+
+        <div class="games__list">
+
+          <a href="https://www.minecraft.net/en-us" target="_blank" class="game">
+            <img src="./images/minecraft.jpeg" alt="Minecraft" class="game__img">
+            <div class="game__info">
+              <h3 class="game__title">Minecraft</h3>
+              <p class="game__desc">Досліджуйте та будуйте безкінечні світи.</p>
+            </div>
+          </a>
+
+          <a href="https://tombraider.square-enix-games.com/en-us" target="_blank" class="game">
+            <img src="./images/EGS_TombRaiderGAMEOFTHEYEAREDITION_CrystalDynamics_S1_2560x1440-0c41fcc8db62992e8d098d304b2277f8.jpg" alt="Tomb Raider" class="game__img">
+            <div class="game__info">
+              <h3 class="game__title">Tomb Raider</h3>
+              <p class="game__desc">Готуйте свій космічний корабель до вильоту!</p>
+            </div>
+          </a>
+
+          <a href="https://forzamotorsport.net/en-US/games/fh5" target="_blank"
+            class="game">
+            <img src="./images/forza-horizon-5-cover-auta.jpg" alt="Forza horizon 5" class="game__img">
+            <div class="game__info">
+              <h3 class="game__title">Forza horizon 5</h3>
+              <p class="game__desc">Тюнінгуй авто і змагайся за призи у гонках.</p>
+            </div>
+          </a>
+
+          <a href="https://www.rockstargames.com/ru/" target="_blank" class="game">
+            <img src="./images/01-big-gta-5.webp" alt="Grand Theft Auto V" class="game__img">
+            <div class="game__info">
+              <h3 class="game__title">Grand Theft Auto V</h3>
+              <p class="game__desc">Проходь місії та заробляй гроші</p>
+            </div>
+          </a>
+
+          <a href="https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/" target="_blank" class="game">
+            <img src="./images/PUBG.jpg" alt="PUBG: BATTLEGROUNDS" class="game__img">
+            <div class="game__info">
+              <h3 class="game__title">PUBG: BATTLEGROUNDS</h3>
+              <p class="game__desc">ПРИЗЕМЛЯЙСЯ, ЗБИРАЙ ТРОФЕЇ, ВИЖИВАЙ!</p>
+            </div>
+          </a>
+
+          <a href="https://www.stalker2.com/" target="_blank" class="game">
+            <img src="./images/stalker-2-heart-of-chernobyl-special-cover-nahled.jpg" alt="S.T.A.L.K.E.R." class="game__img">
+            <div class="game__info">
+              <h3 class="game__title">S.T.A.L.K.E.R.</h3>
+              <p class="game__desc">Виживай у чорнобильській зоні.</p>
+            </div>
+          </a>
+
+
+        </div>
+      </section>
+
+      <section class="contact-us">
+        <h2 class="section-title">Зв'яжіться з нами</h2>
+
+        <form class="form" action="/" method="post">
+
+          <div class="form__field">
+            <label for="name" class="form__label">Ім'я</label>
+            <input type="text" class="form__input" id="name" name="name" autocomplete="off" required>
+          </div>
+
+          <div class="form__field">
+            <label for="phone" class="form__label">Номер телефона</label>
+            <input type="tel" class="form__input" id="phone" name="phone" autocomplete="off" required>
+          </div>
+
+          <div class="form__field">
+            <label for="email" class="form__label">E-mail</label>
+            <input type="email" class="form__input" id="email" autocomplete="off" required>
+          </div>
+
+          <div class="form__field">
+            <label for="comment" class="form__label">Коментарій</label>
+            <textarea class="form__input" id="comment" autocomplete="off" placeholder="Напишіть свій коментарій"
+              rows="5"></textarea>
+          </div>
+
+          <button class="form__submit" type="submit">Надіслати</button>
+
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="/" class="logo">
+        Game<span class="logo__inner">Studio</span>
+      </a>
+      <p class="footer__address">м. Київ, проспект Лесі Українки, 26</p>
+      <p class="footer__email">info@example.com</p>
+      <p class="footer__phone">+38 099 111 11 11</p>
+    </footer>
+
+  </div>
+</body>
+
+</html>
